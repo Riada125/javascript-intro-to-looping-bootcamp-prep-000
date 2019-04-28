@@ -24,7 +24,6 @@ function whileLoop(n) {
 function doWhileLoop(num){
 do {
 		console.log('I run once regardless');
-		array = array.slice(1);
 		incrementVariable();
 	} while (array.length > 0 && i < 5);
 
